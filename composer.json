@@ -1,0 +1,23 @@
+{
+    "name": "amryami/composer-test",
+    "description": "test library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amryami1",
+            "email": "amr.anter@esmaar.net"
+        }
+    ],
+        "minimum-stability": "dev",
+    "require": {
+        "php": "7.4.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "TestComposer\\": "src"
+
+        }
+    }
+}
